@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Veeresh Patil - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Veeresh Patil</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Veeresh Patil</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/VEERESH.jpg" alt="Veeresh Patil profile picture" class="profile-pic" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Veeresh Patil</h1>
+        <p class="section__text__p2">Computer Science Engineer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Veeresh_Resume1 (2).pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/in/veeresh-patil-33b708296'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/veeresh205'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/VEERESH.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/quality.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>Internships in Web Development and Salesforce Administration, Full Stack Web Developer</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Tech in Computer Science Engineering<br />St Joseph Engineering College, Mangalore</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I am a passionate and dedicated Computer Science Engineering student with expertise in Python, Java, SQL, and web development. I have hands-on experience in building projects like ATM Management Systems and E-Commerce Websites. I am eager to contribute to impactful projects and continuously expand my technical skills.
+            </p>
+            <p>
+              My journey in computer science began with a curiosity for solving real-world problems through technology. Over the years, I have developed a strong foundation in programming, data structures, and algorithms. I am particularly interested in machine learning, full-stack web development, and software engineering.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/down-arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Technical Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/python.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Proficient</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/java.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                  <p>Proficient</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/sql-server.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                  <p>Proficient</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/js.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/coding.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML/CSS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/vscode.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>VS Code, Eclipse, NetBeans</h3>
+                  <p>Proficient</p>
+                </div>
+              </article>
+              <!-- New Skills Added -->
+              <article>
+                <img
+                  src="./assets/science.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/web-developer.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Full Stack Web Development</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Internships</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/interpe.jpeg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Web Developer Intern</h3>
+                  <p>InternPe (Oct 2023 - Nov 2023)</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/salesforce.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Salesforce Administrator Intern</h3>
+                  <p>Dec 2023 - Feb 2024</p>
+                </div>
+              </article>
+              <!-- New Internships Added -->
+              <article>
+                <img
+                  src="./assets/octanetsolutions.jpeg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Web Developer Intern</h3>
+                  <p>Octanet Pvt Limited (March 2024 - April 2024)</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/takeitsmart.jpeg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Full Stack Web Developer Intern</h3>
+                  <p>Take it Smart Pvt Limited (Feb 2025 - May 2025)</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/down-arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <!-- Top Row: Project 1 and Project 2 -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/timeo-buehrer-RItNMnb6q9s-unsplash.jpg"
+                alt="ATM Management System"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">ATM Management System</h2>
+            <div class="project-info">
+              <p>
+                Developed an ATM system handling withdrawal, balance inquiry, and PIN management. Implemented secure login with PIN verification.
+              </p>
+              <h3>Technologies Used:</h3>
+              <ul>
+                <li>Java</li>
+                <li>MySQL</li>
+                <li>Eclipse IDE</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/ecommerce.jpg"
+                alt="E-Commerce Website"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">E-Commerce Website</h2>
+            <div class="project-info">
+              <p>
+                Built an online shopping platform with product listing, authentication, and shopping cart. Added cart functionalities like add, remove, and quantity update.
+              </p>
+              <h3>Technologies Used:</h3>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom Row: Project 3 and Project 4 -->
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/house.jpg"
+                alt="Bangalore House Price Prediction"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Bangalore House Price Prediction</h2>
+            <div class="project-info">
+              <p>
+                The House Price Prediction Using Machine Learning project aims to predict house prices based on various features such as location, size, and number of rooms using machine learning algorithms like Random Forest and Gradient Boosting.
+              </p>
+              <h3>Technologies Used:</h3>
+              <ul>
+                <li>Python</li>
+                <li>Scikit-learn (Random Forest, Gradient Boosting)</li>
+                <li>Pandas, NumPy</li>
+                <li>Matplotlib, Seaborn</li>
+                <li>Jupyter Notebook, PyCharm, VS Code</li>
+                <li>Kaggle's House Price dataset</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/stock-analysis.webp"
+                alt="Stock Market Price Analysis"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Stock Market Price Analysis</h2>
+            <div class="project-info">
+              <p>
+                The Stock Market Price Analysis Using Machine Learning project leverages historical stock data to predict future price trends using machine learning algorithms such as LSTM (Long Short-Term Memory), Random Forest, and ARIMA. It helps traders and investors make informed decisions by analyzing market patterns, trends, and volatility.
+              </p>
+              <h3>Technologies Used:</h3>
+              <ul>
+                <li>Python</li>
+                <li>Scikit-learn, TensorFlow/Keras (for LSTMs), ARIMA</li>
+                <li>Pandas, NumPy</li>
+                <li>Matplotlib, Seaborn</li>
+                <li>Jupyter Notebook, PyCharm, VS Code</li>
+                <li>Kaggle datasets</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/down-arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/mail.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:veereshpatil918@gmail.com">veereshpatil918@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://linkedin.com/in/veeresh-patil-33b708296">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 Veeresh Patil. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
